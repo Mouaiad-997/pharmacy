@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="pharmacy.uuu">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="714.0">
+         <children>
+            <ImageView fitHeight="405.0" fitWidth="672.0" layoutX="57.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@se.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="iddrug" layoutX="461.0" layoutY="25.0" prefHeight="33.0" prefWidth="204.0" />
+            <Button layoutX="395.0" layoutY="82.0" mnemonicParsing="false" onAction="#getDrugById" prefHeight="51.0" prefWidth="140.0" text="Enter" textFill="#c62424">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="94.0" layoutY="25.0" prefHeight="51.0" prefWidth="263.0" text="Enter ID To Update" textFill="#fc6e5e">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="expirationdate1" layoutX="220.0" layoutY="344.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="thedateofpurchase1" layoutX="497.0" layoutY="268.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="typeoftreatment1" layoutX="497.0" layoutY="198.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="themanufacturecompany1" layoutX="194.0" layoutY="273.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="price1" layoutX="187.0" layoutY="190.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="name1" layoutX="187.0" layoutY="109.0" prefHeight="25.0" prefWidth="132.0" />
+            <Label layoutX="88.0" layoutY="108.0" prefHeight="33.0" prefWidth="65.0" text="Name" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="180.0" prefHeight="33.0" prefWidth="65.0" text="Price" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="69.0" layoutY="247.0" prefHeight="70.0" prefWidth="125.0" text="          The&#10; Manufacture&#10;    Company" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="399.0" layoutY="176.0" prefHeight="70.0" prefWidth="125.0" text="Type Of&#10;Treatment" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="419.0" layoutY="246.0" prefHeight="70.0" prefWidth="125.0" text="The Date&#10;      Of&#10; Purchase" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="319.0" prefHeight="70.0" prefWidth="204.0" text="Expiration Date" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="506.0" layoutY="329.0" mnemonicParsing="false" onAction="#updateEmployee" prefHeight="51.0" prefWidth="140.0" text="Update&gt;&gt;" textFill="#c62424">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

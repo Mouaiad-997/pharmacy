@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="481.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="522.0" fitWidth="729.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mainpage.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="263.0" prefHeight="51.0" prefWidth="261.0" text="Main Page" textFill="#1e87a4">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="35.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="65.0" mnemonicParsing="false" onAction="#ViewDrugs" prefHeight="60.0" prefWidth="323.0" text="Show Pharmacy Contents" textFill="#e40e0e">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="147.0" mnemonicParsing="false" onAction="#insertDrugs" prefHeight="60.0" prefWidth="323.0" text="Buy a Drug" textFill="#e40e0e">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="238.0" mnemonicParsing="false" onAction="#updateDrugs" prefHeight="60.0" prefWidth="323.0" text="Sell a Drug" textFill="#e40e0e">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="331.0" mnemonicParsing="false" onAction="#SherchDrugs" prefHeight="60.0" prefWidth="323.0" text="Edit a Drug" textFill="#e40e0e">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="417.0" mnemonicParsing="false" onAction="#SherchDrugs" prefHeight="60.0" prefWidth="323.0" text="Search a Drug" textFill="#e40e0e">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.ViewDrugs">
+   <children>
+      <AnchorPane prefHeight="555.0" prefWidth="808.0">
+         <children>
+            <TableView fx:id="table" layoutX="16.0" layoutY="18.0" prefHeight="516.0" prefWidth="775.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="name" prefWidth="75.0" text="Name" />
+                  <TableColumn fx:id="themanufacturecompany" prefWidth="178.0" text="The Manufacture Company" />
+                  <TableColumn fx:id="typeoftreatment" prefWidth="138.0" text="Type Of Treatment" />
+                  <TableColumn fx:id="thedateofpurchase" prefWidth="156.0" text="The Date Of Purchase" />
+                  <TableColumn fx:id="expirationdate" prefWidth="152.0" text="Expiration Date" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

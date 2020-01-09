@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="461.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="590.0" fitWidth="816.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RFJYX2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="404.0" prefHeight="33.0" prefWidth="321.0" text="Data Base Status" textFill="#f54646">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="408.0" layoutY="415.0" mnemonicParsing="false" onAction="#statusDB" prefHeight="32.0" prefWidth="134.0" text="CheckDB" textFill="#49a3ba">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="dbConlb" layoutX="587.0" layoutY="411.0" prefHeight="43.0" prefWidth="181.0" textFill="#b93232">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="383.0" layoutY="35.0" prefHeight="59.0" prefWidth="134.0" text="User Name :" textFill="#f54646">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="131.0" prefHeight="59.0" prefWidth="127.0" text="Password :" textFill="#f54646">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="503.0" layoutY="42.0" prefHeight="44.0" prefWidth="282.0" promptText="Enter Your Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="579.0" layoutY="219.0" mnemonicParsing="false" onAction="#enterCP" prefHeight="43.0" prefWidth="91.0" text="Enter" textFill="#49a3ba">
+         <font>
+            <Font name="Arial Narrow Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="check" layoutX="519.0" layoutY="282.0" prefHeight="59.0" prefWidth="274.0" textFill="#b93232">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <PasswordField fx:id="password" layoutX="503.0" layoutY="139.0" prefHeight="43.0" prefWidth="282.0" promptText="Enter Your Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Button layoutY="29.0" mnemonicParsing="false" onAction="#GoToSingup" prefHeight="45.0" prefWidth="197.0" text="&lt;&lt; Back to Singin" textFill="#b52a2a">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.uuu">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="389.0" prefWidth="584.0">
+         <children>
+            <ImageView fitHeight="439.0" fitWidth="592.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@update.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="8.0" layoutY="14.0" prefHeight="51.0" prefWidth="263.0" text="Enter ID To Delete" textFill="#51da75">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="iddrug" layoutX="271.0" layoutY="23.0" prefHeight="33.0" prefWidth="204.0" />
+            <Button layoutX="241.0" layoutY="100.0" mnemonicParsing="false" onAction="#getDrugById" prefHeight="51.0" prefWidth="96.0" text="Enter" textFill="#c62424">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="name1" layoutX="271.0" layoutY="193.0" prefHeight="25.0" prefWidth="132.0" />
+            <Label layoutX="186.0" layoutY="189.0" prefHeight="33.0" prefWidth="65.0" text="Name" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="186.0" layoutY="265.0" prefHeight="33.0" prefWidth="65.0" text="Price" textFill="#f52525">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="price1" layoutX="264.0" layoutY="269.0" prefHeight="25.0" prefWidth="132.0" />
+            <Button layoutX="409.0" layoutY="324.0" mnemonicParsing="false" onAction="#deleteDrugById" prefHeight="51.0" prefWidth="132.0" text="Delete" textFill="#c62424">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

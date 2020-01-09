@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pharmacy.updatedeletegetid">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="374.0" prefWidth="685.0">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="685.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@delete_1.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="iddrug" layoutX="25.0" layoutY="17.0" prefHeight="33.0" prefWidth="57.0" />
+            <Button layoutX="109.0" layoutY="21.0" mnemonicParsing="false" onAction="#getDrugById" text="id" />
+            <TextField fx:id="price1" layoutX="16.0" layoutY="127.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="themanufacturecompany1" layoutX="17.0" layoutY="177.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="typeoftreatment1" layoutX="17.0" layoutY="230.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="expirationdate1" layoutX="17.0" layoutY="279.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="thedateofpurchase1" layoutX="16.0" layoutY="328.0" prefHeight="25.0" prefWidth="132.0" />
+            <TextField fx:id="name1" layoutX="17.0" layoutY="77.0" prefHeight="25.0" prefWidth="132.0" />
+            <Button layoutX="296.0" layoutY="288.0" mnemonicParsing="false" onAction="#deleteDrugById" prefHeight="47.0" prefWidth="132.0" text="Delete" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
